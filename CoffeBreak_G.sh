@@ -1,4 +1,5 @@
 #!/bin/sh
+#Creado por @srkDos
 
 zenity --info --text "Bienvenidos al asistente de optimizacion para su sistema."
 PASSWORD=$(zenity --password)
