@@ -179,6 +179,11 @@ prepare_portage() {
     echo------ esta usted de acuerdo?"
     **************************voy por aca************************
     echo "app-portage/layman git"  > /etc/portage/package.use/layman
+    echo "instalaremos un paquete necesario su nombre es hdparm"
+    sudo equo install hdparm
+    echo "agregando a hdparm en su arranque"
+    sudo rc-update add hdparm default
+    
 
 sleep 10s
     
